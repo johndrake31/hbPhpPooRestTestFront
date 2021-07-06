@@ -84,7 +84,7 @@ function restoCards(tbl) {
 
 function createRestoEtPlats(resto, plats) {
     cardResto = `        
-        <div class="col-4 p-3">
+        <div class="col-6 d-flex border border-3 border-dark p-3 me-3 mb-5">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
                 <h5 class="card-title">${resto.name}</h5>
